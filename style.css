@@ -13,7 +13,7 @@ h3{
 }
 span{
     font-size: 6rem;
-    font-width: 600;
+    width: 600;
  }
 .container{
     max-width:550px;
@@ -32,6 +32,17 @@ span{
     margin-left: 2rem;
 }
 img{
-    width: 80px;
+    width: 100px;
     filter: grayscale(100%);
 }
+.feelsLike{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    margin-left: 2rem;
+}
+#feelDegree{
+    font-size: 20px;
+    width: 30;
+}
+
